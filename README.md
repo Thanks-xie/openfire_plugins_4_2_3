@@ -1,0 +1,3 @@
+# openfire_plugins_4_2_3
+
+基于openfire_4_2_3版本的插件开发，用于自定义开发插件
