@@ -1,0 +1,12 @@
+/*C6*/SET SCHEMA PUBLIC
+DELETE FROM OFPROPERTY WHERE NAME='provider.vcard.className'
+INSERT INTO OFPROPERTY VALUES('provider.vcard.className','org.igniterealtime.openfire.plugin.avatarresizer.DelegateVCardProvider',0)
+COMMIT
+/*C7*/SET SCHEMA PUBLIC
+DELETE FROM USERSTATUS WHERE USERNAME='17761207348' AND RESOURCE='Android'
+INSERT INTO USERSTATUS VALUES('17761207348','Android',0,'available','192.168.0.130','001570872456697','001570872056770')
+COMMIT
+/*C5*/SET SCHEMA PUBLIC
+DELETE FROM OFPROPERTY WHERE NAME='plugin.restapi.serviceLoggingEnabled'
+INSERT INTO OFPROPERTY VALUES('plugin.restapi.serviceLoggingEnabled','false',0)
+COMMIT

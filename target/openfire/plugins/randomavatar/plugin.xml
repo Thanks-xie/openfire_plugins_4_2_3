@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <class>org.igniterealtime.openfire.plugins.randomavatar.RandomAvatarPlugin</class>
+    <name>Random Avatar Generator Plugin</name>
+    <description>Generates semi-random avatar images.</description>
+    <author>Guus der Kinderen</author>
+    <version>1.0.0</version>
+    <date>03/29/2018</date>
+    <minServerVersion>4.1.5</minServerVersion>
+    <minJavaVersion>1.8</minJavaVersion>
+</plugin>

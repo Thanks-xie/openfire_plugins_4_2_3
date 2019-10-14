@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!-- Servlets -->
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.fastpath.ImageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SoundServlet</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.fastpath.SoundServlet</servlet-class>
+    </servlet>
+
+    <!-- Servlet mappings -->
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/getimage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoundServlet</servlet-name>
+        <url-pattern>/getsound</url-pattern>
+    </servlet-mapping>
+
+<context-param><param-name>org.eclipse.jetty.jsp.precompiled</param-name><param-value>true</param-value></context-param>
+
+<!--
+Automatically created by Apache Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dimage_002dsettings_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dimage_002dsettings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtranscript_002dconfig_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtranscript_002dconfig_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dresponse_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dresponse_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.agent_002dgroup_002dbrowser_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.agent_002dgroup_002dbrowser_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dproperties_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dproperties_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002derror_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002derror_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dcategory_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dcategory_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.chat_002dconversation_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.chat_002dconversation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtext_002dsettings_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtext_002dsettings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsummary_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsummary_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagent_002dchats_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagent_002dchats_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dvariables_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dvariables_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.agent_002dselectors_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.agent_002dselectors_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dview_002dresponses_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dview_002dresponses_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dmanage_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dmanage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.uploadSounds_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.uploadSounds_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drouting_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drouting_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drepos_002dsettings_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drepos_002dsettings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002drules_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002drules_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.usage_002dsummary_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.usage_002dsummary_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.user_002dbrowser_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.user_002dbrowser_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_002dsuccess_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_002dsuccess_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dcreate_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dcreate_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueues_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueues_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsound_002dsettings_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsound_002dsettings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmacros_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmacros_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagents_002dstatus_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagents_002dstatus_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsettings_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsettings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.global_002dworkgroup_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.global_002dworkgroup_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002doffline_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002doffline_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.upload_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.upload_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.forms.workgroup_002ddataform_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.forms.workgroup_002ddataform_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.forms.create_002delement_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.forms.create_002delement_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmonitors_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmonitors_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dchatbot_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dchatbot_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.chat_002dsummary_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.chat_002dsummary_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_002dsuccess_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_002dsuccess_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dagents_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dagents_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.interceptors_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.fastpath.interceptors_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dimage_002dsettings_jsp</servlet-name>
+        <url-pattern>/workgroup-image-settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtranscript_002dconfig_jsp</servlet-name>
+        <url-pattern>/workgroup-transcript-config.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dresponse_jsp</servlet-name>
+        <url-pattern>/workgroup-add-response.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.agent_002dgroup_002dbrowser_jsp</servlet-name>
+        <url-pattern>/agent-group-browser.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dproperties_jsp</servlet-name>
+        <url-pattern>/workgroup-properties.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002derror_jsp</servlet-name>
+        <url-pattern>/workgroup-error.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dadd_002dcategory_jsp</servlet-name>
+        <url-pattern>/workgroup-add-category.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.chat_002dconversation_jsp</servlet-name>
+        <url-pattern>/chat-conversation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dtext_002dsettings_jsp</servlet-name>
+        <url-pattern>/workgroup-text-settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsummary_jsp</servlet-name>
+        <url-pattern>/workgroup-summary.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagent_002dchats_jsp</servlet-name>
+        <url-pattern>/workgroup-agent-chats.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dvariables_jsp</servlet-name>
+        <url-pattern>/workgroup-variables.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.agent_002dselectors_jsp</servlet-name>
+        <url-pattern>/agent-selectors.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dview_002dresponses_jsp</servlet-name>
+        <url-pattern>/workgroup-view-responses.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dmanage_jsp</servlet-name>
+        <url-pattern>/workgroup-queue-manage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_jsp</servlet-name>
+        <url-pattern>/workgroup-delete.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.uploadSounds_jsp</servlet-name>
+        <url-pattern>/uploadSounds.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drouting_jsp</servlet-name>
+        <url-pattern>/workgroup-routing.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002drepos_002dsettings_jsp</servlet-name>
+        <url-pattern>/workgroup-repos-settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002drules_jsp</servlet-name>
+        <url-pattern>/workgroup-queue-rules.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.usage_002dsummary_jsp</servlet-name>
+        <url-pattern>/usage-summary.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.user_002dbrowser_jsp</servlet-name>
+        <url-pattern>/user-browser.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002ddelete_002dsuccess_jsp</servlet-name>
+        <url-pattern>/workgroup-delete-success.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dcreate_jsp</servlet-name>
+        <url-pattern>/workgroup-queue-create.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueues_jsp</servlet-name>
+        <url-pattern>/workgroup-queues.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsound_002dsettings_jsp</servlet-name>
+        <url-pattern>/workgroup-sound-settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmacros_jsp</servlet-name>
+        <url-pattern>/workgroup-macros.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dagents_002dstatus_jsp</servlet-name>
+        <url-pattern>/workgroup-agents-status.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dsettings_jsp</servlet-name>
+        <url-pattern>/workgroup-settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_jsp</servlet-name>
+        <url-pattern>/workgroup-create.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.global_002dworkgroup_jsp</servlet-name>
+        <url-pattern>/global-workgroup.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002doffline_jsp</servlet-name>
+        <url-pattern>/workgroup-offline.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.upload_jsp</servlet-name>
+        <url-pattern>/upload.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.forms.workgroup_002ddataform_jsp</servlet-name>
+        <url-pattern>/forms/workgroup-dataform.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.forms.create_002delement_jsp</servlet-name>
+        <url-pattern>/forms/create-element.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dmonitors_jsp</servlet-name>
+        <url-pattern>/workgroup-monitors.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dchatbot_jsp</servlet-name>
+        <url-pattern>/workgroup-chatbot.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.chat_002dsummary_jsp</servlet-name>
+        <url-pattern>/chat-summary.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dcreate_002dsuccess_jsp</servlet-name>
+        <url-pattern>/workgroup-create-success.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.workgroup_002dqueue_002dagents_jsp</servlet-name>
+        <url-pattern>/workgroup-queue-agents.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.fastpath.interceptors_jsp</servlet-name>
+        <url-pattern>/interceptors.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->
+</web-app>
