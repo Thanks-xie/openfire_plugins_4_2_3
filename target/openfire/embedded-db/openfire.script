@@ -280,7 +280,7 @@ INSERT INTO FPCHATSETTING VALUES('demo',2,'Inform user that a form must be compl
 INSERT INTO FPCHATSETTING VALUES('demo',2,'Description of the ''repeat'' command','','repeat_help_message','!repeat - Use this command to repeat the last question.','!repeat - Use this command to repeat the last question.')
 INSERT INTO FPCHATSETTING VALUES('demo',2,'Confirmation that the invitation was sent again','','invitation_resent_message','The room invitation was sent again','The room invitation was sent again')
 INSERT INTO USERSTATUS VALUES('17761207347','Android',0,'unavailable','192.168.0.130','001570872194153','001570872642122')
-INSERT INTO USERSTATUS VALUES('17761207348','Android',1,'available','192.168.0.130','001570872456697','001570872056770')
+INSERT INTO USERSTATUS VALUES('17761207348','Android',0,'available','192.168.0.130','001570872456697','001570872056770')
 INSERT INTO USERSTATUSHISTORY VALUES(1,'17761207347','Android','192.168.0.130','001570871991960','001570872008640')
 INSERT INTO USERSTATUSHISTORY VALUES(2,'17761207348','Android','192.168.0.130','001570872028512','001570872056770')
 INSERT INTO USERSTATUSHISTORY VALUES(3,'17761207347','Android','192.168.0.130','001570872112311','001570872151447')

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Plugin configuration file for the admin console. This file must 
+  live in the root of the plugin's directory.
+-->
+<plugin>
+    <class>com.myplugin.MyPlugin</class>
+    <!-- Plugin meta-data -->  
+  <name>myplugin</name>  
+  <description>This is the my sample plugin.description</description>  
+  <author>xiejinbo</author>  
+  <version>1.0.1</version>  
+  <date>14/10/2019</date>  
+  <url>http://localhost:9090/openfire/plugins.jsp</url>  
+  <minServerVersion>4.2.3</minServerVersion>  
+  <licenseType>gpl</licenseType>  
+  <adminconsole></adminconsole> 
+</plugin>

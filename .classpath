@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="src/i18n"/>
 	<classpathentry kind="src" path="build/lib/dist"/>
 	<classpathentry kind="src" path="src/plugins/helloworld/src/java"/>
+	<classpathentry kind="src" path="src/plugins/myplugin/src/java"/>
 	<classpathentry kind="lib" path="build/lib/ant/ant-contrib.jar"/>
 	<classpathentry kind="lib" path="build/lib/cglib-nodep.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/hsqldb.jar"/>

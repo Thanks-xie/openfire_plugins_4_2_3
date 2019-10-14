@@ -6,13 +6,14 @@
 -->
 <plugin>
     <class>com.helloworld.HelloWorldPlugins</class>
-    <name>helloworld</name>
-    <description>First Openfire Custom Plugin.</description>
-    <author>xiejinbo</author>
-    <version>1.0.0</version>
-    <date>12/107/2019</date>
-    <minServerVersion>4.2.3</minServerVersion>
-    
-    <adminconsole>
-    </adminconsole>
+    <!-- Plugin meta-data -->  
+  <name>helloworld</name>  
+  <description>这是一个测试插件</description>  
+  <author>xiejinbo</author>  
+  <version>1.0.1</version>  
+  <date>14/10/2019</date>  
+  <url>http://localhost:9090/openfire/plugins.jsp</url>  
+  <minServerVersion>4.2.3</minServerVersion>  
+  <licenseType>gpl</licenseType>  
+  <adminconsole></adminconsole> 
 </plugin>
